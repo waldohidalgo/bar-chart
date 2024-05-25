@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.contenedor_grafico {
+  overflow: auto;
+  position: relative;
+}
+.contenedor_grafico svg {
+  margin-inline: auto;
+  display: block;
+}
+.label-y {
+  font-weight: 700;
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.label-x {
+  font-weight: 700;
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+line,
+.domain {
+  stroke-width: 2;
+}
+
+.y-axis text {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.x-axis text {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+/*
+Estilos Bar
+*/
+.bar {
+  fill: #198754;
+}
+.bar:hover {
+  fill: orange;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: auto;
+  padding: 1rem 2px;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  background: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.75);
+}
+
+svg {
+  position: relative;
+}
+
+.more-info {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
