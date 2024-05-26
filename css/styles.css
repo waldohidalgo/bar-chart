@@ -57,6 +57,7 @@ Estilos Bar
 
 .tooltip {
   position: absolute;
+  box-sizing: border-box;
   text-align: center;
   width: 150px;
   height: auto;

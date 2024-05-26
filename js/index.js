@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       .attr("y", (d, i) => yScale(values[i]))
       .on("mouseover", function (event, d) {
         const [x, y] = d3.pointer(event);
-        const xPosition = x > 740 ? x - 15 - 150 : x + 15;
+        const xPosition = x > 740 ? x - 150 - 15 : x + 15;
         const yPosition = yScale(d[1]) + (height - padding - yScale(d[1])) / 2;
 
         const dateFormateada = d3.utcFormat("%Y %q")(new Date(d[0]));
