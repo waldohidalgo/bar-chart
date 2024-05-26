@@ -5,9 +5,11 @@ body {
 h2 {
   text-align: center;
 }
+.grafico {
+  overflow: auto;
+}
 
 .contenedor_grafico {
-  overflow-x: auto;
   position: relative;
   width: 960px;
   height: 460px;
