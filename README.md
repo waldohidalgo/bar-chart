@@ -14,7 +14,7 @@ Primer proyecto requisito obligatorio para obtener la [**Data Visualization Cert
 
 ### 2. All tests passed
 
-![All test passed](./screenshots/passed_all_tests.webp)
+![All test passed](./screenshots/all_test_passed.webp)
 
 ### 3.Tooltip
 

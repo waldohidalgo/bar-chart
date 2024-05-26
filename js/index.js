@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       .attr("y", 75)
       .attr("transform", "rotate(-90)")
       .attr("class", "label-y")
-      .text("Millions of USD");
+      .text("Billions of Dollars");
 
     svg
       .append("text")
