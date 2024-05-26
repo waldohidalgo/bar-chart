@@ -1,6 +1,7 @@
 /* HTML: <div class="loader1"></div> */
 .contenedor_loader {
   height: 100%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;

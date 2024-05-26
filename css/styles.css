@@ -7,13 +7,16 @@ h2 {
 }
 .grafico {
   overflow: auto;
+  @media screen and (min-width: 970px) {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .contenedor_grafico {
   position: relative;
-  width: 960px;
+
   height: 460px;
-  margin-inline: auto;
 }
 
 .label-y {
