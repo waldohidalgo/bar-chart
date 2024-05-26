@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     const contenedor = d3.select(".contenedor_grafico");
     const svg = contenedor
+      .html("")
       .append("svg")
       .attr("width", width)
       .attr("height", height)

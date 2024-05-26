@@ -9,6 +9,7 @@ h2 {
 .contenedor_grafico {
   overflow: auto;
   position: relative;
+  height: 450px;
 }
 .contenedor_grafico svg {
   margin-inline: auto;
